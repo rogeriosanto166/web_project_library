@@ -45,7 +45,7 @@
 
 .header__content {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   gap: 50px;
 }
 
@@ -110,6 +110,7 @@
   line-height: 30px;
   font-weight: 400;
   color: #ffffff;
+  margin: auto;
 }
 
 .staff__cards {
@@ -153,7 +154,6 @@
 }
 
 .card__footer {
-  margin: 0;
   margin-top: auto;
   font-size: 14px;
   line-height: 20px;
