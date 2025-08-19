@@ -45,7 +45,7 @@
 
 .header__content {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   gap: 50px;
 }
 
@@ -109,18 +109,18 @@
   font-size: 20px;
   line-height: 30px;
   font-weight: 400;
-  margin-bottom: 68px;
   color: #ffffff;
 }
 
 .staff__cards {
   max-width: 760px;
-  margin: auto;
+  margin: 68px auto 68px auto;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 40px;
   padding-left: 0;
+  list-style-type: none;
 }
 
 .card {
@@ -130,7 +130,6 @@
   box-sizing: border-box;
   height: 420px;
   width: 360px;
-  list-style-type: none;
 }
 
 .card__content {
