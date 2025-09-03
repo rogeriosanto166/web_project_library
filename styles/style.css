@@ -344,44 +344,56 @@
 
 .footer__columns {
   display: flex;
+  justify-content: space-between;
   gap: 80px;
 }
 
 .footer__column {
+  display: flex;
+  flex-direction: column;
 }
 
 .footer__column_content_hours {
+  margin-left: auto;
 }
 
 .footer__column_content_social {
+  display: flex;
+  gap: 16px;
 }
 
 .footer__logo {
   max-width: 58px;
   max-height: 80px;
-  margin-right: 700px;
+  margin-bottom: 100px;
 }
 
 .footer__column-heading {
+  margin: 0;
 }
 
 .footer__list {
   list-style-type: none;
   padding: 0;
-  margin: 0;
+  margin-top: 20px;
 }
 
 .footer__list-item {
+  margin-bottom: 16px;
 }
 
 .footer__column-link {
   text-decoration: none;
   color: #ffffff;
+  display: flex;
+  gap: 10px;
 }
 
 .footer__social-icon {
+  max-width: 16px;
+  max-height: 16px;
 }
 
 .footer__copyright {
-  margin-top: 100px;
+  margin: 0;
 }
