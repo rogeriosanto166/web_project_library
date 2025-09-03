@@ -346,6 +346,7 @@
   display: flex;
   justify-content: space-between;
   gap: 80px;
+  position: relative;
 }
 
 .footer__column {
@@ -395,5 +396,7 @@
 }
 
 .footer__copyright {
+  position: absolute;
+  bottom: 0px;
   margin: 0;
 }
