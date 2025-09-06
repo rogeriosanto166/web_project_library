@@ -386,6 +386,7 @@
   text-decoration: none;
   color: #ffffff;
   display: flex;
+  align-items: baseline;
   gap: 10px;
 }
 
