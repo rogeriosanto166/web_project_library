@@ -337,7 +337,7 @@
 
 .footer {
   box-sizing: border-box;
-  background-color: rgb(0, 0, 0);
+  background-color: #1f1f1f;
   color: #ffffff;
   padding: 60px 80px;
 }
@@ -386,7 +386,7 @@
   text-decoration: none;
   color: #ffffff;
   display: flex;
-  align-items: baseline;
+  align-items: center;
   gap: 10px;
 }
 
