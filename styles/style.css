@@ -13,7 +13,7 @@
   height: 100vh;
   min-height: 720px;
   max-height: 800px;
-  padding: 30px 80px 40px;
+  padding: 30px 80px 0px;
   position: relative;
   box-sizing: border-box;
 }
@@ -83,9 +83,9 @@
   text-decoration: none;
 }
 
-.header__address {
-  margin-right: 85px;
+.header__footer-address {
   color: #838383;
+  margin: 0;
 }
 
 .staff {
